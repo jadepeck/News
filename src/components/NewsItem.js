@@ -31,3 +31,5 @@ function NewsItem({item}) {
 }
 
 export default NewsItem
+
+// #7:06
