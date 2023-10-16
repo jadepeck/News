@@ -1,6 +1,7 @@
 function NewsItem({item}) {
 
   const websiteUrl = item.url
+  console.log(websiteUrl)
   const website = websiteUrl.split('https://').pop().split('/')[0]
 
   const date = item.publishedAt
