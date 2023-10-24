@@ -11,7 +11,7 @@ function NewsItem({item}) {
   return (
     <a href={item.url} className="article">
       <div className="article-image">
-        <img src={item.urlToImage} alt={item.title} />
+        <img src={item.image} alt={item.title} />
       </div>
       <div className="article-content">
         <div className="article-source">
