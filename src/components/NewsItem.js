@@ -38,3 +38,4 @@ export default NewsItem
 // need to add add to favorite
 // fuck im so not productive
 // another lazy day being tour guide for my thai friendsssssssssssssss
+// today i went to IT fair fucking did not do any code
