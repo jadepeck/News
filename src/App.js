@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Menu from './components/Menu'
 import NewsGrid from './components/NewsGrid'
+import NavbarDark from './components/Navbar'
 // import { computeHeadingLevel } from '@testing-library/react'
 
 function App() {
@@ -20,6 +21,7 @@ useEffect(() => {
 
   return (
     <div className="App">
+      <NavbarDark />
       <h1 className="title text-red-300">See The Latest News</h1>
       <Menu active={active} setActive={setActive} setCategory={setCategory}/>
       <NewsGrid items={items}/>
