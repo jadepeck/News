@@ -79,3 +79,4 @@ export function NavbarDark() {
 export default NavbarDark
 
 // have to add more countries
+// fuck my life tomorrow no gaming
