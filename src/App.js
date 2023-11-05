@@ -21,10 +21,12 @@ useEffect(() => {
 
   return (
     <div className="App">
-      Search
-      <input type="search"/>
-      <h3>Items:</h3>
-
+    {/* //   Search
+    //   <input type="search"/>
+    //   <h3>Items:</h3>
+    //   {items.map(item => ( */}
+    {/* //     <div>{item}</div>
+    //   ))} */}
       <h1 className="title text-red-300">See The Latest News</h1>
       <Menu active={active} setActive={setActive} setCategory={setCategory}/>
       <NewsGrid items={items}/>
