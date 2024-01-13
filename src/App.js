@@ -12,7 +12,7 @@ const [category, setCategory] = useState("general")
 useEffect(() => {
 
   // fetch(`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=7329c421b0f2438aa169de0718b041ce`)
-  fetch(`https://gnews.io/api/v4/top-headlines?country=us&max=1&category=${category}&apikey=20f4b17d78ba108bb6b9ff689b85090d`)
+  fetch(`https://gnews.io/api/v4/top-headlines?country=us&max=6&category=${category}&apikey=20f4b17d78ba108bb6b9ff689b85090d`)
   .then(res => res.json())
   .then(data => setItems(data.articles))
   // .then(data => console.log(data.articles))
